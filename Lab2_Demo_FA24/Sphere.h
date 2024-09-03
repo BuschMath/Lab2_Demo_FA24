@@ -19,6 +19,7 @@ public:
 
 private:
 	double radius;
+	double pi = 3.14159;
 };
 
 #endif // !SPHERE_H

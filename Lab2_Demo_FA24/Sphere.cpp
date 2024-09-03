@@ -22,6 +22,6 @@ double Sphere::getRadius()
 
 double Sphere::calculateVolume()
 {
-	return 4/3*pow(radius, 3);
+	return 4/3*pi*pow(radius, 3);
 }
 

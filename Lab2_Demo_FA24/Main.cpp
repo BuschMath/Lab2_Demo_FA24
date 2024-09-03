@@ -1,10 +1,13 @@
 // Header documentation...
 
 #include <iostream>
+#include "Sphere.h"
 
 int main()
 {
-	std::cout << "Hello, World!" << std::endl;
+	Sphere s;
+	s.setRadius(5);
+	std::cout << "The volume of the sphere is: " << s.calculateVolume() << std::endl;
 
 	return 0;
 }
